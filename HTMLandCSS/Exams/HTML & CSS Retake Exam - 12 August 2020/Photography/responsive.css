@@ -1,0 +1,16 @@
+/* TODO: Add media queries */
+
+@media screen and (max-width:600px) {
+    /*body{
+        background-color: blueviolet;
+    }*/
+    .thumbnails{
+        flex-direction: column;
+    }
+    .thumbnails > div{
+        width: 100%;
+    }
+    .thumbnails img{
+        height: 250px;
+    }
+}
