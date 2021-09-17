@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;700&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+body{
+    font-family:'Lato', sans-serif;
+    padding: 0;
+    margin:0;  
+    color: #3f4d5e;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+header{   
+    background-image: url("images/hero-certificates.jpg");              
+
+    position: relative;     
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;        
+    background-size: cover;
+}
+header::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+
+/* navigation */
+nav{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    background-color: white;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+nav span{
+    width: 200px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    height: 100%;
+    align-items: center;
+}
+nav ul li{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#3f4d5e;
+}
+nav ul li a.active{    
+    border-top: 5px solid #42abf8;
+    padding-top: 28px;
+    margin-top: -32px;    
+}
+.account{
+    background-color: #42abf8;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding-top: 2.6%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.account a{
+    color: white;
+}
+
+/* Header content */
+.header-content{
+    z-index: 2;
+    width: 1000px;
+    margin:0 auto;
+}
+.desc{
+    background-color: #29394b;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.desc h1{
+    font-weight: normal;
+}
+.flexContainer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+}
+.dipl_1{
+    margin-left:30px;
+    width: 150px;
+    height: 100%;    
+    margin-top: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    
+}
+.dipl_2{    
+    width: 170px;
+    height: 100%;
+    margin-top: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.note{
+    font-style: italic;
+    padding-bottom: 30px;
+}
+
+/* Main */
+main{
+    width: 1100px;
+    margin:0 auto;
+    padding-top: 50px;
+}
+main h1{
+    text-align: center;
+}
+.grayPanel{
+    background-color: #f4f5f7;
+    padding: 20px;
+}
+
+/* CTA */
+.cta{   
+    margin-top: 100px;
+    background-image: url("images/sign-up-prompt-background.jpg");           
+    position: relative;     
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;        
+    background-size: cover;
+    border-radius: 10px;
+    color: white;
+    
+}
+.cta::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+
+
+
+.cta h2{
+    text-align: center;
+    padding-top: 30px;   
+    z-index: 2;
+}
+.cta p{      
+    z-index: 2;    
+}
+.buttons{
+    display: flex;
+    padding-bottom: 20px;
+    align-items: center;
+}
+.buttons button{
+    padding: 10px;
+    margin:10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    border-radius: 5px;
+    z-index: 2;
+    cursor: pointer;
+}
+.borderLine{
+    width: 1px;
+    height: 30px;
+    background-color: white;
+    z-index: 2;
+}
+.btnWhite{
+    background-color: white; 
+    color:#42abf8;   
+}
+.btnTrans{
+    background-color: transparent;
+    color: white;
+   
+}
+
+/* Footer */
+footer{
+    border-top: 1px solid gray;
+    width: 1200px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo li{
+    padding-right: 10px;
+}
+
+
+.footer-logo img{
+    width: 150px;
+}
+.footer-links{
+    display: flex;
+    list-style: none;
+}
+
+.footer-links a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: #4e5b6b;
+}
