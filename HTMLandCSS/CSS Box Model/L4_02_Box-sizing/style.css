@@ -1,0 +1,16 @@
+html{
+    box-sizing:content-box;
+    width: 100%;
+}
+
+section{
+    width: 250px;
+    height: 250px;
+    border:2px dotted green;
+    text-align: center;
+}
+p{
+    width:auto;
+    border:2px solid blue;
+    padding: 20px;        
+}
