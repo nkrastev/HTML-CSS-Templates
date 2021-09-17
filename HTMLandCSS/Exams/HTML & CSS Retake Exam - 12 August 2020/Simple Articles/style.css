@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;700&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+body{
+    font-family:'Lato', sans-serif;
+    padding: 0;
+    margin:0;
+    height: 100vh;
+    color: #4e5c6c;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+section{    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;         
+}
+article{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.article-left
+{
+    background-color: #e3f3fd;
+    flex: 1;    
+    flex-basis: 40%;
+    flex-grow: 0; 
+    
+}
+.article-left .fas{
+    color:#4aacf8;
+    padding-right: 10px;
+}
+.article-right
+{
+    flex: 1;    
+    flex-basis: 40%;
+    flex-grow: 0;      
+    border: 5px solid #4aacf8; 
+    text-align: center;    
+}
+
+h1{
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.centerVertical{
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    transform: translateY(-50%);
+}
+h2{
+    color:#44a9f8;
+    font-size: 45px;
+}
+h2 span{
+    font-size: 18px;
+    color:#4e5c6c;
+    font-weight: normal;
+}
+
+button{
+    background-color: #44a9f8;
+    border-radius: 5px;
+    padding: 10px;
+    border:0;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
+}
