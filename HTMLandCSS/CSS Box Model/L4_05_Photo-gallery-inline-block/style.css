@@ -1,0 +1,28 @@
+html{
+    background-color: grey;
+}
+
+
+
+.gallery{
+    width: 80%;
+    margin:0 auto;
+}
+
+
+li{
+    border-width: 0.4rem;
+    border-color: black;
+    border-style: solid;
+    display: inline-block;
+    padding: 10px;
+    margin:10px;
+    vertical-align: middle;
+    background-color: honeydew;
+}
+
+li img{
+    vertical-align: middle;
+    max-width: 400px;
+    max-height: 400px;
+}
