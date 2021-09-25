@@ -1,0 +1,26 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+html{
+    background: rgb(26,118,124);
+    background: linear-gradient(90deg, rgba(26,118,124,0.9808298319327731) 0%, rgba(110,110,245,0.3477766106442577) 50%, rgba(0,255,59,0.8939950980392157) 100%);
+
+}
+.viewport{
+    width: 500px;
+    margin:0 auto;
+    
+}
+
+.card{
+    
+    position: absolute;
+}
+
+
+
+
+.fas{
+    position: relative;
+    bottom:20px;
+    right:40px;
+    color:white;    
+}
