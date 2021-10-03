@@ -1,0 +1,53 @@
+html{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width:65vw;
+}
+
+.container, section{
+    display: flex;        
+}
+
+span{
+    border:1px solid black;
+    padding: 20px;
+    height: 80px;
+}
+
+
+.notes{
+    flex-direction: column;
+    justify-content: space-between;
+}
+.notes span{
+    height: 100%;
+    width: 200px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.week{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.week > span:nth-child(1), span:nth-child(7){
+    background-color: blanchedalmond;
+    flex-basis: 100%;
+        
+}
+
+.week > 
+span:nth-child(2), 
+span:nth-child(3), 
+span:nth-child(4),
+span:nth-child(5),
+span:nth-child(6),
+span:nth-child(8),
+span:nth-child(9){       
+    flex-grow: 1;
+}
