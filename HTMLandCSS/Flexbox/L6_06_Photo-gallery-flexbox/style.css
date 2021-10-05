@@ -1,0 +1,29 @@
+html{
+    background-color: #eeeeee;
+}
+body, ul, li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:1em;
+    line-height: 1.2;
+}
+
+section{
+    margin:auto 200px;
+}
+.gallery ul{
+    list-style: none;
+    justify-content: space-between;
+}
+ul li{
+    padding: 30px;
+    margin:10px;
+    border:10px solid black;
+    align-content: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
