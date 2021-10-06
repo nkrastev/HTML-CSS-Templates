@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(238, 238, 238);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Georgia, serif;
+}
+
+.page{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    width: 70%;
+}
+aside{
+    width: 20%;
+}
+
+.imageRight{
+    float: right;
+    margin-left: 20px; 
+} 
+.imageLeft{
+    float: left;
+    margin-right: 20px; 
+}   
+
+img{
+    padding: 20px;       
+    background-color: rgb(255, 255, 255);
+    border:5px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+blockquote{
+    float: right;
+    width: 50%;
+    border-left:4px solid #dcdcdc;
+    padding-left: 20px;
+    font-size: 0.8em;
+    font-style: italic;
+    vertical-align: top;
+    font-family: Georgia, serif;
+}
+
+aside ul{
+    list-style:square;    
+}
+ul a{
+    text-decoration: none;
+    color:rgb(0, 153, 0)
+}
