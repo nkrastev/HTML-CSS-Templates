@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(238, 238, 238);
+    height:100%;
+}
+section{
+    width: 1200px;
+    margin: 0 auto;
+}
+h2{
+    font-size: 35px;
+    font-weight: normal;
+}
+.image-item{
+    width: 100%;
+    object-fit: cover; 
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+}
+.title{
+    padding: 10px;
+}
+.content{
+    padding: 10px;
+}
+.more-content{
+    padding: 10px;
+    border-top:1px solid #b6b6b6;
+}
+
+/*Flex styles*/
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;     
+    justify-content: flex-start;  
+    flex-direction: row;
+}
+.flex-item {
+    width: 31%;    
+    margin: 10px;        
+    border-radius: 15px;
+    border: 1px solid #b6b6b6;
+    box-shadow: 0 2px 2px rgba(0,90,250,0.05),
+      0 4px 4px rgba(0,90,250,0.05),
+      0 8px 8px rgba(0,90,250,0.05),
+      0 16px 16px rgba(0,90,250,0.05);     
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    
+  }
+.flex-image-item{
+    width: 100%;
+    object-fit: cover; 
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+}
+.flex-title{
+    padding: 10px;
+}
+.flex-content{
+    padding: 10px;
+}
+.flex-more-content{
+    padding: 10px;    
+    border-top:1px solid #b6b6b6; 
+    margin-top: auto;  
+    align-self: flex-end; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*https://codepen.io/tobiasahlin/pen/JVmLRa*/
+.masonry {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    /* Your container needs a fixed height, and it 
+     * needs to be taller than your tallest column. */
+    height: 1595px;
+    
+    /* Optional */    
+    border-radius: 3px;
+    padding: 0px;    
+    margin: 0 auto;
+    counter-reset: items;
+  }
+  
+  .item {
+    width: 32%;
+    /* Optional */
+    position: relative;
+    margin-bottom: 2%;
+    border-radius: 15px;
+    border: 1px solid #b6b6b6;
+    box-shadow: 0 2px 2px rgba(0,90,250,0.05),
+      0 4px 4px rgba(0,90,250,0.05),
+      0 8px 8px rgba(0,90,250,0.05),
+      0 16px 16px rgba(0,90,250,0.05);     
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+  }
+  
+  .item::before {
+    counter-increment: items;
+    content: "";
+  }
+  
+  /* Re-order items into 3 rows */
+  .item:nth-child(3n+1) { order: 1; }
+  .item:nth-child(3n+2) { order: 2; }
+  .item:nth-child(3n)   { order: 3; }
+  
+  /* Force new columns */
+  .masonry::before,
+  .masonry::after {
+    content: "";
+    flex-basis: 100%;
+    width: 0;
+    order: 2;
+  }
+  
