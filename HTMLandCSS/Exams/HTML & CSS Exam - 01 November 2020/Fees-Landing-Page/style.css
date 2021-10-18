@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;700&display=swap');
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+body{
+    font-family:'Lato', sans-serif;
+    padding: 0;
+    margin:0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{ 
+    margin: 0 auto;
+    width: 1200px;            
+}
+
+nav img{
+    width: 150px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    padding: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #54546d;
+}
+
+.full-container{   
+    background-color: #54546d;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url("images/calculator-icon.svg");
+    background-position: center left;
+    background-position: -100px;
+    background-repeat: no-repeat;
+}
+.taxes{
+    text-align: center;
+}
+.taxes h2{
+    color: white;
+    padding-top: 50px;
+    margin: 0;
+    font-weight: normal;
+}
+/* Taxes */
+section{
+    width: 1200px;
+    margin:0 auto;
+}
+.taxes-items{
+    display: flex;
+    justify-content: space-between;
+}
+.basic,
+.fundamentals,
+.professional
+{
+    width: 100%;
+    margin: 20px;
+    margin-top: 50px;    
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.8) 0px 8px 24px;    
+    padding-top: 20px;
+    
+}
+.basic,
+.fundamentals,
+.professional{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.basic h3,
+.fundamentals h3,
+.professional h3{
+    color: #54546d;    
+}
+.basic p,
+.fundamentals p,
+.professional p{    
+    padding-left: 10px;      
+    padding-right: 10px;      
+}
+
+.bottom{  
+    display: flex;
+    justify-content: space-between;    
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.basic .bottom{
+    background: rgb(3,155,61);
+    background: linear-gradient(90deg, rgba(3,155,61,1) 0%, rgba(73,213,126,1) 100%);
+   flex-direction: column;
+   height: 120px;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+}
+.fundamentals .bottom{
+    background: rgb(77,108,136);
+background: linear-gradient(90deg, rgba(77,108,136,1) 0%, rgba(98,154,206,1) 100%);
+    height: 120px;
+    border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+ }
+.professional .bottom{
+    background: rgb(76,57,167);
+background: linear-gradient(90deg, rgba(76,57,167,1) 0%, rgba(139,124,225,1) 100%);
+    height: 120px;
+    border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+}
+
+article button{
+    background-color: #9a5dc6;
+    width: 50%;
+    margin:0 auto;
+    border:0px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family:'Lato', sans-serif;
+    border-radius: 30px;
+    box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px; 
+}
+.bottom h4{
+    font-weight: normal;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.bottomLeft{
+    border-right: 1px solid white;
+}
+
+/* Main style */
+main{
+    padding-top: 120px;
+    color:#54546d;
+    width: 1000px;
+    margin:0 auto;
+}
+main h2{
+    font-weight: normal;
+}
+main table{
+    width: 100%;    
+    border-spacing: 0;
+    border-collapse: separate;
+    
+}
+main table td{
+    padding: 10px;    
+}
+
+main tr:nth-child(even) {background: #f8f8f8}
+main tr:nth-child(odd) {background: #e6e6e6}
+main td:nth-child(2),
+main td:nth-child(3) {
+    width: 15%;
+  }
+main tr:first-child td:first-child { border-top-left-radius: 10px; }
+main tr:last-child td:last-child { border-bottom-right-radius: 10px; }
+
+.submain{
+    width: 1200px;
+    margin: 0 auto;  
+    padding-top: 50px; 
+    color:#54546d; 
+    padding-bottom: 50px; 
+}
+.submainContent{
+   display: flex;
+}
+.submain h2{
+    font-weight:normal;    
+}
+
+footer{
+    height: 50px;
+    background-color: #54546d;
+    color: #b9b9ca;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+}
