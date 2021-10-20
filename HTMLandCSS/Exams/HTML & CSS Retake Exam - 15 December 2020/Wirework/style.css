@@ -1,0 +1,173 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+body{
+    font-family: 'Helvetica', sans-serif;
+    padding: 0px;
+    width:1200px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+}
+h1{
+    border-right: 1px solid #b2b2b2;
+    padding-right: 10px;
+}
+header span{
+    position: relative;
+    left:-120px;
+    bottom: -10px;
+    color: gray;
+    text-transform: uppercase;
+}
+header ul li{
+    padding: 15px;
+    margin:1px;
+    background-color: #ececec;
+}
+header ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+.main-image{
+    padding: 0px;
+    margin: 0px;
+    height: 400px;
+}
+
+.main-image img{
+    width: 100%;
+    height: 400px;    
+    object-fit: cover;
+}
+.main-text{
+    background-color: #e24e2a;
+    text-align: center;
+    color:#f5c7bc;
+    padding: 40px;
+}
+
+.container{
+    background-color: #383838;
+    display: flex;
+    text-align:center;    
+}
+.container > .item{    
+    padding: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.icon{
+    font-size: 55px;
+    padding: 10px;
+    color: white;
+    background-color: #e24e2a;
+    margin:0 auto;
+    width: 70px;
+    margin-bottom: 20px;
+}
+.title{
+    color: white;
+    font-weight: bold;
+    border-bottom:1px solid #4c4c4c;
+    padding-bottom: 30px;
+}
+.content{
+    color: #636c6c;
+    line-height: 1.5;
+    padding-top: 10px;
+}
+
+.cta{
+    background-color: white;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.cta > h2{
+    color:#555555;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+.cta > p{
+    color:#a2a2a2;
+    margin-top: 5px;
+    font-size: 18px;
+    
+}
+.cta button{
+    background-color: #1b9772;
+    border: 0;
+    padding:15px;
+    cursor: pointer;
+    padding-left:30px;
+    padding-right:30px;
+    color:white;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+.containerFoot{
+    background-color: #383838;
+    display: flex;
+    text-align:center;    
+}
+.containerFoot > .item{    
+    padding: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.icon{
+    font-size: 55px;
+    padding: 10px;
+    color: white;
+    background-color: #e24e2a;
+    margin:0 auto;
+    width: 70px;
+    margin-bottom: 20px;
+}
+.containerFoot .title{
+    color: white;    
+    border-bottom:1px solid #4c4c4c;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.content{
+    color: #636c6c;
+    line-height: 1.5;
+    padding-top: 10px;
+}
+
+footer{
+    height: 150px;
+    text-align: center;
+    background-color: #1b9772;
+    letter-spacing: 3px;
+    color:#5bb499;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
