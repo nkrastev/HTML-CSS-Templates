@@ -1,0 +1,39 @@
+@media screen and (max-width:768px) {
+
+    .main-movie{
+        flex-direction: column;
+    }
+    .main-movie-poster{
+        display: none;
+    }
+    .main-movie-trailer iframe{
+        width: 100%;
+        height: 100%;
+    }
+    .main-movie ul{
+        width: 100%;
+    }
+    .main-movie ul li{
+        padding: 0;
+        margin:0;
+    }
+    .movies{
+        margin: 50px 0 50px 0;
+    }
+    .movie{
+        width: 24%;
+        height: 150px;
+    }
+}
+
+
+@media screen and (max-width:414px) {
+    .movie-list{
+        flex-direction: column;
+    }
+    .movie {
+        width: 96%;
+        margin: 2%;
+        height: 350px;
+    }
+}

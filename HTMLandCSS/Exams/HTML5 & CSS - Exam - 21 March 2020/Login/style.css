@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+
+/* font-family: 'Poppins', sans-serif; */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+    background: url("image.jpg") rgba(0, 0, 0, 0.7);    
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 100vh;
+}
+
+section{        
+    margin: 0 auto;
+    display: flex;   
+    height: 100vh;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;  
+}
+form{
+    background-color: white;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+h1{
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.username::before{
+    font-family: 'Font Awesome 5 Free';        
+    content: "\f007";
+    font-weight: bold;
+    color: gray;
+    display: inline-block;
+    padding-right: 10px;
+}
+.password::before{
+    font-family: 'Font Awesome 5 Free';        
+    content: "\f023";
+    font-weight: bold;
+    color: gray;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+input{
+    border:0px; 
+    margin-bottom: 5px; 
+    font-family: 'Poppins', sans-serif; 
+    font-size: 18px;
+}
+
+article{
+    border-bottom:1px solid gray;    
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+button{
+    margin: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #d41872;
+    color: white;
+    border-radius: 15px;
+    border:0;
+    line-height: 1.7;    
+    
+}
+

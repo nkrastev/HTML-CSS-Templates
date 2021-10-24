@@ -1,0 +1,151 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@400;700&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Gelasio', serif;
+}
+
+header{
+    background: url("images/map.jpg");    
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: multiply;
+    height: 500px;
+}
+
+nav span img{
+    max-width: 70px;
+}
+
+nav{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    list-style: none;    
+}
+nav ul li{
+    padding-right: 20px;
+}
+.slogan{
+    padding-top: 100px;
+    text-align: center;
+}
+.slogan h1{
+    color: white;
+    font-size: 45px;
+    text-shadow:2px 2px 0px black;
+}
+.slogan button{
+    background-color: cornflowerblue;
+    color: white;
+    border:0px;
+    line-height: 2;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+}
+
+main{
+    background:#e1e1e1;
+}
+.articles{
+    width: 1200px;
+    margin: 0 auto;
+}
+h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #53595c;
+    margin: 0;
+}
+
+.blockImages{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 50px;
+}
+.blockLeft{
+    background-image: url("images/packing.jpg");
+    background-size: cover;
+    width: 40%;
+    min-height: 600px;
+}
+.blockRight{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+}
+.blockTop{
+    background-image: url("images/planning.jpg");
+    background-size: cover;
+    width: 100%;
+    min-height: 300px;
+}
+.blockBottom{
+    background-image: url("images/budget.jpg");
+    min-height: 300px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+footer{
+    background-color: #8c8c8c;
+    padding-top: 15px;    
+    padding-bottom: 15px;
+}
+.ulLinks{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.ulLinks ul{
+    display: flex;
+    list-style: none;
+}
+.ulLinks ul a{
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+.ulLinks ul li::after{
+    content: "|";
+    color: white;
+}
+.ulLinks ul li:last-child::after{
+    content: "";
+    padding-left: 10px;
+}
+
+main p{
+    font-size: 35px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.blockLeft p{
+    text-align: center;
+}
+.blockTop p{
+    text-align: center;
+    margin-top: 0px;
+}
+.blockBottom p{
+    padding-left: 10px;
+}
+
