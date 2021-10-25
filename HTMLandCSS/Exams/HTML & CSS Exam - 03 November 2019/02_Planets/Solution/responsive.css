@@ -1,0 +1,39 @@
+@media screen and (max-width:1000px){
+    /* body{
+        background: blueviolet !important;        
+    } */
+
+    .pair{
+        flex-direction: column;
+    }
+    .planet{
+        width:100%;
+    }
+    footer nav{
+        flex-direction: column;        
+    }
+    .primary footer nav a:nth-child(even){
+        border:none;
+    }
+}
+
+@media screen and (max-width:850px) {
+    /* body{
+        background: brown !important;
+    } */
+    .pair{
+        flex-direction: column;
+    }
+    .planet{
+        width:90%;
+    }
+    main{
+        width: 100%;
+    }
+    .news ul{
+        flex-direction: column;
+    }
+    .news ul li{
+        text-align: center;
+    }
+}
