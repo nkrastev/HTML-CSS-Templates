@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.wrapper{
+    background-color: #234465;
+}
+.leftHeader, .rightHeader{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.logo{
+    width: 150px;
+    padding-right: 15px;
+}
+
+button{
+    background-color: #ffa000;
+    color: white;
+    border-radius: 20px;
+    border:0px;
+    font-weight: bold;    
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    color: #91a1b2;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-right: 15px;
+}
+header .fas{
+    color: #91a1b2;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+
+
+.subLinks{
+    width: 1200px;
+    margin:0 auto;
+    line-height: 38px;    
+}
+.subLinks a{
+    text-decoration: none;
+    padding-right: 30px;
+    color: #ce8100;    
+}
+a.activeLink{
+    color: #234479;
+    font-weight: bold;        
+}
+
+.containerBullets{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.slider{
+    background-color: #3a3741;
+}
+.containerSlider{
+    width: 1200px;
+    margin:0 auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+.containerSlider article{
+    padding-right: 20px;    
+}
+.bigButton{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+section.about{
+    width: 1200px;
+    margin:0 auto;
+    background-color: #f2f2f2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    z-index: 2;
+    position: relative;
+}
+h2{    
+    color: #234465;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-bottom:3px solid #ffa000;        
+    display:block;
+    width: fit-content;
+    block-size: fit-content;
+    width: -moz-fit-content;
+    margin:0 auto;
+}
+.about-text{
+    padding: 10px;    
+}
+
+
+section.about button{
+    display: flex;
+    margin:0 auto;
+    position: relative;
+    
+}
+
+.wordpressLogo{
+    position:absolute;
+    background-image: url("images/wordpress.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    opacity: 0.5;
+    top:150px;
+    left:-100px;
+}
