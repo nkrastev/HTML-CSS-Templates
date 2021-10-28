@@ -1,0 +1,63 @@
+@media all and (max-width:1024px) and (min-width:769px) {
+    
+
+    .site-logos-container{
+        display: flex;
+    }
+    .site-logo img {
+        width: 100%;
+    }
+    .entry-title{
+        font-size: 2rem;
+    }
+    .site-information-image{
+        background-position: center center;
+        
+        background-size: contain;
+        margin: 10px;        
+        background-repeat: no-repeat;
+
+    }
+    .site-information-text {
+        padding: 0;
+       
+    }
+    
+}
+
+
+
+
+@media all and (max-width:768px){
+    
+    .site-information-image, .site-navigation ul{
+        display: none;
+    }
+    .site-information-text{
+        flex:100%;
+        text-align: center;
+    }
+    .entry-description{
+        width: 100%;
+    }
+    .site-form form > p{
+        flex-direction: column;
+    }
+    .site-form button{
+        margin: 0 auto;
+    }
+    .site-posts{
+        flex-direction: column;
+    }
+    .site-post
+    {
+        width: 80%;
+        margin:0 auto;
+        margin-bottom: 30px;
+    
+    }
+    .site-footer{
+        flex-direction: column;
+        align-items: center;
+    }
+}
