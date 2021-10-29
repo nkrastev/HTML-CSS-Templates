@@ -1,0 +1,161 @@
+/** Use the fonts - **"Roboto"** and for the headings **"Abril Fatface"**
+* Use **Font Awesome** for the icons
+
+font-family: 'Abril Fatface', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital,wght@0,100;0,400;0,700;1,700&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3,h4,h5,h6{
+    font-family: 'Abril Fatface', cursive;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+header{
+    width: 1200px;
+    margin:0 auto;
+    background: url("image/image.jpg");
+    background-repeat: no-repeat;    
+    height: 800px;
+    background-position: center center;
+    display: flex; 
+    justify-content: space-between;  
+    align-items: flex-start;
+}
+.logo{
+    width: 20%;
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 5px 4px 15px 0px rgba(0,0,0,0.66); 
+    box-shadow: 5px 4px 15px 0px rgba(0,0,0,0.66);
+}
+.logo h1{
+    padding: 0;
+    margin: 0;
+    font-size: 35px;    
+}
+.logo h1::after{
+    width: 70%;
+    background-color: white;
+    display: block;
+    position: relative;
+    content: "";
+    height: 1px;
+    margin-top: 10px;
+}
+
+.slogan{
+    width: 30%;
+    background: rgb(155,145,137);
+    background: linear-gradient(90deg, rgba(155,145,137,1) 0%, rgba(201,199,198,1) 100%);
+    align-self: center;
+    text-align: right;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+    line-height: 25px;
+}
+.quote{
+    font-size: 60px;    
+    color: #8d8581;
+    display: block;
+    margin-top:20px;
+    margin-bottom:-15px;
+}
+
+main{
+    width: 1200px;
+    margin:0 auto;
+    display: flex;
+}
+
+section.texts{
+    width: 70%;
+    background-color: #f2f0f3;
+    padding: 20px 50px 20px 50px;
+}
+section.facts{
+    background-color: #bab1ad;
+    width: 30%;
+    z-index: 1;
+}
+
+.texts-services-title{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.texts-contact-title{
+    font-size: 40px;
+    text-transform: uppercase;
+ 
+}
+.texts-contact-title::after{
+    display: block;
+    width: 150%;
+    z-index: 0;
+    left: -50px;
+    position: relative;
+    height: 2px;
+    background-color: black;
+    content:"";
+
+}
+
+.text-forms-input{
+    background-color: #bab1ad;
+    color: white;
+    border:0px;
+    border-radius: 5px;
+    line-height: 35px;
+    padding-left: 20px;
+    width: 50%;
+}
+
+::placeholder {
+    color: white;
+  }
+.text-forms-button{
+    background-color: #67784d;
+    color: white;
+    border-radius: 5px;
+    line-height: 35px;
+    border:0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.fact-item-big{
+    font-size: 80px;
+    color: white;
+    font-weight: 100;
+}
+.facts{
+    padding-left: 20px;
+}
+.fact-item-small{
+    text-transform: uppercase;
+}
+
+p.fact-item-big {
+    margin-bottom: 0px;
+}
+p.fact-item-small{
+    margin-top:0px;
+}
+
+.text-service{
+    line-height: 30px;;
+}
