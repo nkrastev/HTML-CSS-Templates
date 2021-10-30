@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,700;0,800;1,200&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+/*font-family: 'Raleway', sans-serif;*/
+
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color:#111111;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/*header*/
+header{
+    width:1200px;
+    margin: 0 auto;
+    padding-top: 10px;
+    background-color: #efefef;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end
+}
+header nav ul li a{
+    color: #111111;
+    text-decoration: none;
+    padding-right: 30px;
+}
+.header-top{
+    display: flex;
+}
+.header-top-image{
+    width: 50%;
+    align-items: flex-end;
+    display: flex;
+}
+.header-top-image img{
+    max-width: 100%;
+}
+.header-top-text{
+    width: 50%;    
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    /*justify-content: center;*/
+}
+.vertical-line{
+    width: 1px;
+    height: 50px;
+    display: block;
+    background-color: #111111;
+}
+.header-top-text-title{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.slim-title{
+    font-weight: 100;
+}
+.header-top-text-title-p{
+    font-style: italic;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*main*/
+main{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*camera*/
+.camera{
+    margin-top: 20px;
+    background-color: #efefef;
+    display: flex;
+    align-items: center;
+}
+.camera-image{
+    width: 50%;
+}
+.camera-image img{
+    max-width: 100%;
+    padding: 9%;
+}
+.camera-text{
+    width: 40%;
+}
+.camera-text-title{
+    font-size: 45px;
+    margin-bottom: 10px;
+    padding-left: 80px;
+}
+.camera-text-title::before{
+    content: "";
+    width: 60px;
+    height: 1px;
+    background-color: #111111 ;
+    display: block;
+    position: relative;
+    left: -80px;
+    top:30px;    
+}
+.camera-text-p{
+    font-style: italic;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.camera-text-social{
+    font-size: 30px;
+    color: #909090;
+}
+
+/*only-image*/
+
+.only-image{
+    padding-top: 20px;
+}
+.only-image img{
+    width: 1200px;
+}
+
+/*bridge*/
+.bridge{
+    display: flex;
+    background-color: #efefef;
+    margin-top: 20px;
+    align-items: center;
+}
+.bridge-image{
+    width: 50%;
+}
+.bridge-image img{
+    max-width: 100%;
+    padding: 9%;
+}
+.bridge-text{
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.bridge-text-p{
+    font-style: italic;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bridge-text-title{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+/*slider */
+.slider{
+    display: flex;
+    background-color: #efefef;
+    margin-top: 20px;    
+    padding-top: 150px;
+    padding-bottom: 150px;
+    justify-content: center;
+    align-items: center;
+}
+.slider-image img{
+    max-width: 500px;
+}
+.slider-image-top{    
+    /* :) */
+    position: absolute;
+    z-index: 5;
+}
+.slider-image-top img{
+    max-width: 600px;
+}
+
+/*contacts*/
+.contacts{
+    background-color: #efefef;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacts-title{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.contacts-p{
+    font-style: italic;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 70%; 
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contacts-form{
+    width: 600px;
+    padding-bottom: 20px;
+}
+.contacts-form input{
+    margin-bottom: 10px;
+}
+#mail, #subject{
+    width: 290px;     
+    line-height: 30px;
+    border:1px solid #111111;
+    padding-left: 10px;
+    background-color: transparent;
+    
+}
+::placeholder {
+    font-family: 'Raleway', sans-serif;
+    color: #111;
+    font-size: 15px;
+}
+
+#subject{
+    margin-left:16px;
+}
+.contacts-form textarea{
+    width: 100%;    
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: #111;
+    background-color: transparent;
+    border:1px solid #111111;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+#btn-submit{
+    width: 100%;
+    background-color: #111;
+    line-height: 30px;
+    color: white;
+    border: 0px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer{
+    width: 1200px;
+    margin:0 auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #efefef;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
